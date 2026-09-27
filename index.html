@@ -1,3 +1,4 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#faf9f5;color:#141413}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
 <title>Wave Plan Generator</title>
 <meta name="description" content="A product showcase of the DLS4 Wave Plan Generator — dispatch automation for Amazon DSP station DLS4.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -383,7 +384,7 @@ footer b{color:var(--muted);}
         <span class="tag o">Drivers · WhatsApp</span>
         <div class="frame"><div class="chrome"><div class="traffic"><span></span><span></span><span></span></div><div class="url">wave-plan-generator.local/view</div></div><img src="waveplan_report.jpg" onclick="lb(this)"></div>
         <h3>Wave Plan</h3>
-        <p>Colour-coded by wave, number-plate graphics for every van, EV vans flagged green — the document every driver reads before loadout.</p>
+        <p>A clear wave-by-wave queue time, number-plate graphics for every van, EV vans flagged green — the document every driver reads before loadout.</p>
       </div>
       <div class="card">
         <span class="tag d">Management only</span>
@@ -410,9 +411,9 @@ footer b{color:var(--muted);}
     <div class="block-head">
       <div>
         <div class="num">06 — OUTPUTS</div>
-        <h2>One dataset, five house colours</h2>
+        <h2>One dataset, fifteen house colours</h2>
       </div>
-      <p>The accent picker re-skins every button and every rendered report together — the same 20-driver plan, restyled in one click.</p>
+      <p>A fused colour-strip picker re-skins every button and every rendered report together — the same 19-driver plan, shown here in five of the fifteen available colours.</p>
     </div>
     <div class="fan-wrap">
       <div class="ftile f1" onclick="lb(this.querySelector('img'))"><img src="waveplan_purple.jpg"><div class="tagline"><span class="dot" style="background:#9b6bf2;"></span><span class="txt">Purple</span></div></div>
@@ -422,6 +423,10 @@ footer b{color:var(--muted);}
       <div class="ftile f5" onclick="lb(this.querySelector('img'))"><img src="waveplan_orange.jpg"><div class="tagline"><span class="dot" style="background:#f2914e;"></span><span class="txt">Orange</span></div></div>
     </div>
     <div class="fan-hint">Hover a card to see which colour it is</div>
+    <div style="max-width:760px; margin:36px auto 0;">
+      <span class="lbl" style="display:block; text-align:center; margin-bottom:10px;">The picker itself — one fused strip, fifteen colours</span>
+      <div class="frame"><div class="chrome"><div class="traffic"><span></span><span></span><span></span></div><div class="url">wave-plan-generator.local</div></div><img src="accent_picker_widget.jpg" onclick="lb(this)"></div>
+    </div>
   </section>
 
   <section class="block" id="mobile">
@@ -457,3 +462,5 @@ function lb(el){
   document.getElementById('lightbox').classList.add('open');
 }
 </script>
+
+</body></html>
